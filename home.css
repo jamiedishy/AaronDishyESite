@@ -2,21 +2,17 @@ body {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100;
-}
-#spacing {
-    padding: 2rem 0rem 0rem;
-}
-nav a {
-    color: black;
-    padding-left: 12rem;
-}
-nav a:hover {
-    color: grey;
+    padding-bottom: 2rem;
 }
 #bio {
-    padding: 0rem 6rem 0rem 0rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     width: 100%;
-    text-align: justify;
+}
+#lists {
+    padding-left: 3rem;
+    padding-right: 4rem;
 }
 .experience a {
     color: black;
@@ -39,6 +35,67 @@ nav a:hover {
 color: grey;
 transition: 0.3s;
 }
-#lists {
-    padding-left: 0px;
+
+@media only screen and (min-width: 768px) {
+    #bio {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-right: 5rem;
+        width: 100%;
+        text-align: justify;
+    }
+    #lists {
+        padding-left: 3.2rem;
+        padding-right: 7rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #bio {
+        padding-right: 0rem;
+    }
+    #lists {
+        padding-right: 1rem;
+    }
+#spacing {
+    padding-top: 2rem;
+    padding-left: 3.8rem;
+}
+nav a {
+    color: black;
+    padding-left: 9.4rem;
+}
+nav a:hover {
+    color: grey;
+}
+#nav-space {
+    padding-left: 9.4rem;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+    #bio {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+    }
+    #lists {
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+#spacing {
+    padding-top: 2rem;
+    padding-left: 3.4rem;
+}
+nav a {
+    color: black;
+    padding-left: 14rem;
+}
+nav a:hover {
+    color: grey;
+}
+#nav-space {
+    padding-left: 14rem;
+}
+
 }
