@@ -97,5 +97,52 @@ nav a:hover {
 #nav-space {
     padding-left: 14rem;
 }
+}
 
+@media only screen and (min-width: 1440px) {
+#spacing {
+    padding-left: 8.2rem;
+}
+nav a {
+    color: black;
+    padding-left: 14rem;
+}
+nav a:hover {
+    color: grey;
+}
+#nav-space {
+    padding-left: 14rem;
+}
+}
+
+@media only screen and (min-width: 1600px) {
+    #spacing {
+        padding-left: 13.2rem;
+    }
+    nav a {
+        color: black;
+        padding-left: 14rem;
+    }
+    nav a:hover {
+        color: grey;
+    }
+    #nav-space {
+        padding-left: 14rem;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    #spacing {
+        padding-left: 22.5rem;
+    }
+    nav a {
+        color: black;
+        padding-left: 14rem;
+    }
+    nav a:hover {
+        color: grey;
+    }
+    #nav-space {
+        padding-left: 14rem;
+    }
 }
