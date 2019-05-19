@@ -73,7 +73,7 @@ img {
 }
 nav a {
     color: black;
-    padding-left: 9.4rem;
+    padding-left: 14rem;
 }
 nav a:hover {
     color: grey;
@@ -99,13 +99,13 @@ nav a:hover {
 }
 nav a {
     color: black;
-    padding-left: 14rem;
+    padding-left: 19rem;
 }
 nav a:hover {
     color: grey;
 }
 #nav-space {
-    padding-left: 14rem;
+    padding-left: 15rem;
 }
 img {
     max-width: 50%;
@@ -122,13 +122,14 @@ img {
 }
 nav a {
     color: black;
-    padding-left: 14rem;
+    padding-left: 19rem;
 }
 nav a:hover {
     color: grey;
+    transition: 0.3s;
 }
 #nav-space {
-    padding-left: 14rem;
+    padding-left: 15rem;
 }
 img {
     max-width: 45%;
@@ -145,7 +146,7 @@ img {
     }
     nav a {
         color: black;
-        padding-left: 14rem;
+        padding-left: 19rem;
     }
     nav a:hover {
         color: grey;
@@ -161,7 +162,7 @@ img {
     }
     nav a {
         color: black;
-        padding-left: 14rem;
+        padding-left: 19rem;
     }
     nav a:hover {
         color: grey;
