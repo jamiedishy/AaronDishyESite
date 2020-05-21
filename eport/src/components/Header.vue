@@ -38,7 +38,10 @@ a:hover {
     color: grey;
     transition: 0.3s;
 }
-@media only screen and (max-width: 992px) {
+#nav {
+    padding-top: 60px;
+}
+@media only screen and (max-width: 760px) {
     #nav {
         display: none;
     }

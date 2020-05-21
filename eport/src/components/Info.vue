@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div id="info">
 
     <div class="container">
-        <div class="row">
+        <div class="row rowoverlay">
             <div class="col-sm">
                 <p>Experience</p>
                 <ul>
@@ -19,7 +19,7 @@
                     <a href="https://www.librarything.com/profile/aarondishy"><li>library</li></a>
                 </ul>
             </div>
-            <div class="col-sm">
+            <div class="col-sm" id="education">
                 <p>Education</p>
                 <ul>
                     <li>Bachelor of Arts (B.A)<br>Communications & Art History<br>(with distinction)<br><a href="https://www.mcgill.ca/">McGill University</a><br>(2012 - 2016)</li>
@@ -28,7 +28,7 @@
             </div>
         </div>
         
-        <div class="row rowoverlay">
+        <div class="row ">
             <div >
                 <img src="../assets/computer.gif" alt="gif">
             </div>
@@ -62,16 +62,23 @@ a:hover {
     left:0;
     bottom:0;
     right:0;
-    height:100%;
-    padding-left: 10rem;
-    padding-top: 5rem;
+    padding-left: 1.5%;
+    height:100%; 
 }
-img {
-    width: 25%;
+img {   
+    width: 40%;
+    padding-left: 13%;
+    padding-top: 10%;
 }
-@media only screen and (max-width: 1024px) {
-    .rowoverlay {
+@media only screen and (max-width: 760px) {
+    img {
         display: none;
+    }
+    #info {
+        padding-left: 5%;
+    }
+    #education {
+        padding-bottom: 8%;
     }
 }
 

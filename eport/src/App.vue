@@ -28,6 +28,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
-  margin-top: 60px;
+}
+@media only screen and (max-width: 760px) {
+    #app {
+        padding: 10%;
+    }
 }
 </style>
