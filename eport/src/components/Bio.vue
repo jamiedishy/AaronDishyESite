@@ -29,8 +29,8 @@ export default {
 </script>
 
 <style>
-.col {
-  padding: 2% 0%;
+#info {
+  padding: 1% 0%;
 }
 
 #info a {
