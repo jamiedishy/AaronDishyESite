@@ -5,8 +5,8 @@
         <div class="col-sm">
           <p>Experience</p>
           <ul>
-            <a target="_blank" href="CV 2021 Final.pdf"><li>cv</li></a>
-            <a target="_blank" href="Resume_Aaron_Dishy_2021.pdf">
+            <a target="_blank" href="CV.pdf"><li>cv</li></a>
+            <a target="_blank" href="Resume.pdf">
               <li>resume</li>
             </a>
           </ul>
@@ -14,7 +14,6 @@
         <div class="col-sm">
           <p>Social</p>
           <ul>
-            <!-- <a href="https://twitter.com/dI5Hy"><li>twitter</li></a> -->
             <a href="https://utoronto.academia.edu/AaronDishy"
               ><li>publications</li></a
             >
