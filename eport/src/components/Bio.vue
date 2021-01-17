@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style>
-#info {
+.row {
   padding: 1% 0%;
 }
 
