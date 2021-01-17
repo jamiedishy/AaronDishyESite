@@ -5,8 +5,10 @@
         <div class="col-sm">
           <p>Experience</p>
           <ul>
-            <a href="#"><li>cv</li></a>
-            <a href="#"><li>resume</li></a>
+            <a target="_blank" href="CV 2021 Final.pdf"><li>cv</li></a>
+            <a target="_blank" href="Resume_Aaron_Dishy_2021.pdf">
+              <li>resume</li>
+            </a>
           </ul>
         </div>
         <div class="col-sm">
@@ -35,13 +37,13 @@
             </li>
             <li>
               Master of Information (M.I)<br />Critical Information Policy
-              Studies<br />Archives & Records<br /><a
+              Studies<br />Thesis Option<br /><a
                 href="https://www.utoronto.ca/"
                 >University of Toronto</a
               ><br />(2016 - 2018)
             </li>
             <li>
-              Bachelor of Arts (B.A)<br />Communications & Art History<br />(with
+              Bachelor of Arts (B.A)<br />Art History & Religious Studies<br />(with
               distinction)<br /><a href="https://www.mcgill.ca/"
                 >McGill University</a
               ><br />(2012 - 2016)
@@ -90,6 +92,11 @@ img {
   padding-left: 13%;
   padding-top: 10%;
 }
+
+ul {
+  padding: 0 0 0 5%;
+}
+
 @media only screen and (max-width: 760px) {
   img {
     display: none;
@@ -100,5 +107,30 @@ img {
   #education {
     padding-bottom: 8%;
   }
+  ul {
+    padding: 0 0 0 7%;
+  }
 }
+
+@media only screen and (min-width: 760px) and (max-width: 780px) {
+  ul {
+    padding: 0 0 0 8%;
+  }
+  img {
+    width:30%;
+    padding-left: 10%;
+    padding-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+  ul {
+    padding: 0 0 0 6.25%;
+  }
+  img {
+    width:30%;
+    padding-left: 10%;
+    padding-top: 15%;
+  }
+ }
 </style>

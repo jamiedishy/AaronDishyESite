@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="mb" id="app">
     <Header />
     <Bio />
     <Info />
@@ -8,21 +8,24 @@
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-import Header from './components/Header.vue'
-import Bio from './components/Bio.vue'
-import Info from './components/Info.vue'
+import Header from "./components/Header.vue";
+import Bio from "./components/Bio.vue";
+import Info from "./components/Info.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Bio,
-    Info
-  }
-}
+    Info,
+  },
+};
 </script>
 
 <style>
+.mb {
+  margin-bottom: 10%;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,8 +33,8 @@ export default {
   color: black;
 }
 @media only screen and (max-width: 760px) {
-    #app {
-        padding: 10%;
-    }
+  #app {
+    padding: 10%;
+  }
 }
 </style>
