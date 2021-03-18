@@ -5,8 +5,12 @@
         <div class="col-sm">
           <p>Experience</p>
           <ul>
-            <a target="_blank" href="CV.pdf"><li>cv</li></a>
+            <!-- <a target="_blank" href="CV.pdf"><li>cv</li></a>
             <a target="_blank" href="Resume.pdf">
+              <li>resume</li>
+            </a> -->
+            <a href="#"><li>cv</li></a>
+            <a href="#">
               <li>resume</li>
             </a>
           </ul>

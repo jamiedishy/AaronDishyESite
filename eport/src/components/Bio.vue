@@ -10,7 +10,7 @@
               Law School (2023) (expected), based in Toronto, Canada. He holds a
               Bachelor of Arts in art history and religious studies from McGill
               University (2016), as well as a Master of Information in critical
-              information policy studies and archives and records management
+              information policy studies
               from the University of Toronto (2018). Aaron’s work centers new
               media policy, archives management, intellectual property law, and
               the implementation of information and communication technologies.
